@@ -44,7 +44,7 @@ public class PlayerController : MonoBehaviour
         }
         if(Input.GetKeyDown(KeyCode.LeftShift) || Input.GetKeyDown(KeyCode.RightShift))
         {
-            Vector3 spawnPosition = transform.position + Vector3.up * 2f;
+            Vector3 spawnPosition = transform.position + transform.forward + Vector3.up * 2f;
 
             Instantiate(projectilePrefab, spawnPosition, projectilePrefab.transform.rotation);
         }

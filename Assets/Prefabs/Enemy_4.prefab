@@ -519,7 +519,6 @@ GameObject:
   - component: {fileID: 7780044720174204626}
   - component: {fileID: 6805058347511046947}
   - component: {fileID: 1029610636878740454}
-  - component: {fileID: 1285657375092855152}
   m_Layer: 0
   m_Name: Enemy_4
   m_TagString: Obstacle
@@ -576,11 +575,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2311941630758768591}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.2, z: 1}
-  m_Center: {x: 0, y: 1.9, z: 0}
+  m_Size: {x: 1, y: 3, z: 1}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!54 &6805058347511046947
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -607,18 +606,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa4f8e0c0a093f5439b86112bf1a7ab2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1285657375092855152
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2311941630758768591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 063a596d67435c04486984afb67dd265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2311941630758768593
